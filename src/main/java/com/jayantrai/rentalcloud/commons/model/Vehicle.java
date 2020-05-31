@@ -20,6 +20,10 @@ public class Vehicle {
     String type;
     int year;
 
+    public Vehicle() {
+
+    }
+
     public Vehicle(int id, String make, String model, String type, int year) {
         this.id = id;
         this.make = make;

@@ -19,6 +19,9 @@ public class Customer {
     String dlNumber;
     String zipCode;
 
+    public Customer() {
+
+    }
 
     public Customer(int id, String firstName, String lastName, String dlNumber, String zipCode) {
         this.id = id;
